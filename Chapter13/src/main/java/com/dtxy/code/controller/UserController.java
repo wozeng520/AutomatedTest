@@ -36,6 +36,7 @@ public class UserController {
         int i = template.selectOne("login", user);
         Cookie cookie = new Cookie("login", "true");
         response.addCookie(cookie);
+		int j = 0;
         if (i == 1) {
             return true;
         }
