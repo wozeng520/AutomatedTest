@@ -37,6 +37,7 @@ public class UserController {
         Cookie cookie = new Cookie("login", "true");
         response.addCookie(cookie);
 		int j = 0;
+		int x = 0;
         if (i == 1) {
             return true;
         }
